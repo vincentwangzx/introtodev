@@ -2,21 +2,28 @@
 <html>
     <title>My First Form</title>
     <head>
-
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <style>
+            h1.Headingstyle {
+                font-family: Arial, Helvetica, sans-serif;
+                color: darkgrey
+            }
+        </style>
     </head>
-    <body>
-        <h1>Login</h1>
+    <body style="font-family:Arial, Helvetica, sans-serif; text-align:center;" >
+        <h1 class="Headingstyle">Login</h1>
         <form action="https://www.google.com" target="_blank"> 
 
-            Username: <br>
-            <input type="text" name="username"><br>
-            Password:<br>
-            <input type="password" name="password"><br>
+            Username:
+            <input type="text" name="username"><br><br>
+            Password:
+            <input type="password" name="password">
+            <div>
             <p>Which language do you prefer coding in?</p>
             <input type="radio" name="coding" value="HTML" checked>HTML</input><br>
             <input type="radio" name="coding" value="Javascript">Javascript</input><br>
             <input type="radio" name="coding" value="C#">C#</input><br>
-            <div>
+            </div>
                 <br>
             <input type="submit" value="Submit"></div>
         </form>

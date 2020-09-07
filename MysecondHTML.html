@@ -1,32 +1,105 @@
 <!doctype html>
-<html>
+<html lang="en">
     <title>MY Second HTML Page</title>
 
     <head>
+        <style>
+            h1.Headingstyle {
+                font-family:Arial, Helvetica, sans-serif;
+                color: grey;
+            }
+           
+            .para {
+                font-family:'Franklin Gothic Extra Light', sans-serif;
+                color: darkslategrey;
+            }
 
+            .anchor {
+                font-family:'Franklin Gothic Extra Light', sans-serif;
+                color: darkolivegreen;
+            }
+
+            table {
+                width: 50%;
+                margin-left: 330px;
+                margin-right: auto;
+                margin-bottom: 50px;
+                font-family:'Franklin Gothic Extra Light', sans-serif;
+                color: rgb(51, 50, 50);
+                font-size: small
+            }
+
+            th, td {
+                height: 40px;
+                text-align: left;
+                vertical-align: middle;
+                padding-left: 20px;
+                border-bottom: 0.5px solid #ddd;
+            }   
+        </style>
     </head>
-    <body>
-        <h1> My Profile</h1>
-        <p>Hello and welcome! This is a humble page that showcases my humble info</p>
+    <body style="text-align:center;">
+        <h1 class="Headingstyle">About Me</h1>
+        <p class="para">Vincent Wang Zexiong</p>
+        <p class="para">HP: 87421834</p>
 
-    <img src="passport photo 2.jpg" alt="Passport Photo 2" style="width:212px;height:250px;">
+    <img src="passport photo 2.jpg" alt="Passport Photo 2" style="width:212px;height:250px;"> 
+    <br>
+    <br>
+    
+        <a class="anchor" href="https://www.linkedin.com/in/vincent-wang-ba609892/" target="_blank"; >Linkedin Profile</a>
     <div>
-        <a href="https://www.linkedin.com/in/vincent-wang-ba609892/" target="_blank">Click to see my Linkedin Profile</a>
-
+        <br>
+        <table>
+            <tr>
+                <th colspan="3" style="text-align:left;" padding="20px">My Experience</th>
+            </tr>
+            <tr>
+                <th>Place of Employment</th>
+                <th>Year</th>
+                <th>Designation</th>
+            </tr>
+            <tr>
+                <td>Ministry of Education</td>
+                <td>2015-2020</td>
+                <td>Zonal Senior Student Welfare Officer</td>
+            </tr>
+            <tr>
+                <td>Pasir Ris Family Service Center</td>
+                <td>2009-2015</td>
+                <td>Social Worker</td>
+            </tr>
+            <tr>
+                <td>Saint Andrew's Junior College</td>
+                <td>2006-2009</td>
+                <td>Chaplain's Assistant</td>
+            </tr>
+            
+    <table>
+        <tr>
+            <th colspan="3" style="text-align:left;" padding="20px">My Qualifications</th>
+        </tr>
+        <tr>
+            <th>School</th>
+            <th>Year</th>
+            <th>Qualification Attained</th>
+        </tr>
+        <tr>
+            <td>SIM University</td>
+            <td>2009-2010</td>
+            <td>Bachelor in Social Work</td>
+        </tr>
+        <tr>
+            <td>Edith Cowan University</td>
+            <td>2006-2008</td>
+            <td>Diploma in Counselling Skills</td>
+        </tr>
+        <tr>
+            <td>Ngee Ann Polytechnic</td>
+            <td>2001-2003</td>
+            <td>Diploma in Early Childhood Education</td>
+        </tr>
     </div>
-    <div> 
-<table>
-<th>School</th>
-<th>Year</th>
-<th>Qualification Attained</th>
-
-</table>
-<table>
-    <td>SIM University</td>
-    <td>2009-2010</td>
-    <td>Bachelor in Social Work</td>
-</table>
-</div>
     
     </body>
 </html>
